@@ -1,3 +1,8 @@
+'''Program to download an SSRS report as a CSV from an intranet report server, then save to an FTP folder
+https://www.reddit.com/r/Python/comments/67xak4/enterprise_intranet_authentication_and_ssrs/ kudos to u/indepndnt for help with retrieving credentials and ntlm auth
+note:config.ini file stored separately
+'''
+
 import configparser
 import os
 import glob
